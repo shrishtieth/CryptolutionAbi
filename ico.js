@@ -541,6 +541,30 @@
 		"inputs": [
 			{
 				"internalType": "address",
+				"name": "user",
+				"type": "address"
+			}
+		],
+		"name": "getPoolAndAmount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "pool",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amountRemaining",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
 				"name": "token",
 				"type": "address"
 			}
